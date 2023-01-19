@@ -1,0 +1,121 @@
+body {
+    font-family: Arial;
+    background-color: aliceblue;
+    padding: 40px 0px
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    margin-top: 5px;
+}
+
+span {
+    color: grey;
+}
+
+.cointeiner {
+    box-shadow: 0 0 20px grey;
+    width: 960px;
+    margin: 0 auto
+}
+
+section,
+header {
+    padding: 10px 60px 20px 60px;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+header ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.address-icon {
+    width: 16px;
+    height: 16px;
+    background-color: cornflowerblue;
+    margin-right: 10px;
+    padding: 8px;
+    vertical-align: middle;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.profile-picture {
+    width: 160px;
+    height: 200px
+}
+
+.hobbies {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hobbies li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.hobbies div {
+    margin-left: 20px
+}
+
+.hobbies p {
+    color: grey;
+    line-height: 1.5;
+
+}
+
+p {
+    line-height: 1.5;
+}
+
+.cv-download {
+    border: 2px solid cornflowerblue;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 26px;
+    transition: background-color 0.5s;
+}
+
+.cv-download:hover {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.cv-download:focus {
+    outline: none;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.cv-download:active {
+    text-decoration: underline;
+}
+
